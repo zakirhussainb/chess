@@ -8,5 +8,5 @@ import (
 
 func main() {
 	fmt.Println("Starting the game...")
-	game.Start()
+	game.Init()
 }
