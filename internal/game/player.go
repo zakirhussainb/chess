@@ -2,11 +2,11 @@ package game
 
 type Player struct {
 	ID       string
-	Color    string
+	Color    Color
 	UserName string
 }
 
-func NewPlayer(id, color, username string) Player {
+func NewPlayer(id string, color Color, username string) Player {
 	return Player{
 		ID:       id,
 		Color:    color,

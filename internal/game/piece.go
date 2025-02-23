@@ -10,3 +10,10 @@ const (
 	QUEEN  PIECE = "Queen"
 	KING   PIECE = "King"
 )
+
+type Color int
+
+const (
+	White Color = iota
+	Black
+)
